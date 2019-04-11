@@ -1,6 +1,6 @@
 {
   "name": "@opencollective/eymail-components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
@@ -19,9 +19,9 @@
   },
   "dependencies": {
     "@eymail/components": "^0.0.5",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "prop-types": "^15.7.2"
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.3",
