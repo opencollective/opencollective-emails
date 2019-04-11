@@ -6,8 +6,8 @@
   "scripts": {
     "watch": "webpack --mode development --watch --progress --colors",
     "build": "webpack --mode production",
-    "dev": "nodemon server",
-    "start": "node server",
+    "dev": "nodemon index",
+    "start": "node index",
     "lint": "eslint \"*.js\"",
     "lint:fix": "npm run lint -- --fix",
     "lint:quiet": "npm run lint -- --quiet",

@@ -1,0 +1,10 @@
+*
+!templates
+!client.js
+!index.js
+!eymail.config.js
+!package.json
+!package-lock.json
+!opencollective.stylesheet.js
+!webpack.config.js
+templates/.DS_Store
