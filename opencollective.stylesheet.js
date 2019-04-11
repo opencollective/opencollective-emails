@@ -11,6 +11,7 @@ const colors = {
   lightGrey: '#969BA3',
   orange: '#ffaa33',
   blue: '#1f87ff',
+  red: '#ff0044',
 };
 
 const stylesheet = {
@@ -23,7 +24,7 @@ const stylesheet = {
   textWidth: '408',
   imageWidth: '360', // 400 (textWidth) - 20 (paddingLeft) - 20 (paddingRight)
 
-  borderRadius: '2px',
+  borderRadius: '20px',
 
   backgroundColor: '#FFF',
 };
@@ -77,6 +78,16 @@ stylesheet.copy = {
 
 stylesheet.link = {
   color: colors.blue,
+};
+
+stylesheet.button = {
+  fontFamily: fontFamily,
+  color: colors.white,
+  backgroundColor: colors.blue,
+  fontSize: '14px',
+  lineHeight: '24px',
+  fontWeight: 500,
+  letterSpacing: '-0.2px',
 };
 
 module.exports = stylesheet;

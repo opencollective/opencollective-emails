@@ -32,19 +32,6 @@ class Footer extends React.Component {
     };
   }
 
-  signatureStyle() {
-    const styles = Stylesheet.get();
-    return {
-      fontFamily: styles.fontFamily,
-      color: styles.colors.darkGrey,
-      fontSize: '16px',
-      lineHeight: '23px',
-      fontWeight: 500,
-      letterSpacing: '-0.2px',
-      textAlign: 'center',
-    };
-  }
-
   teamSignatureStyle() {
     const styles = Stylesheet.get();
     return {
@@ -101,22 +88,8 @@ class Footer extends React.Component {
         width={styles.textWidth}
         innerStyle={this.innerStyle()}
       >
-        <Divider height={60} />
-        <div style={this.signatureStyle()}>
-          Best,
-          <br />
-          <strong>Pia Mancini</strong>
-        </div>
-        <Divider height={18} />
-        <div style={{ textAlign: 'center' }}>
-          <img
-            width="48"
-            height="48"
-            alt=""
-            src="https://res.cloudinary.com/opencollective/image/upload/v1554471430/email/profile-pic-pia.png"
-          />
-        </div>
         <Divider.Line height={64} />
+
         <Paragraph style={this.helpStyle()}>
           If you have questions, follow us on{' '}
           <Link color="#1f87ff" href="https://twitter.com/opencollect">
@@ -188,7 +161,9 @@ class Footer extends React.Component {
           <br />
           <strong>Open Collective Team</strong>
         </div>
+
         <Divider.Line height={76} />
+
         <div className="maxWidth" style={this.logoStyle()}>
           <img
             width="167"
@@ -197,13 +172,17 @@ class Footer extends React.Component {
             src="https://res.cloudinary.com/opencollective/image/upload/v1554471430/email/logo.png"
           />
         </div>
+
         <Divider height={35} />
+
         <div style={this.baselineStyle()}>
           An organization for your community,
           <br />
           transparent by design.
         </div>
+
         <Divider height={35} />
+
         <Paragraph style={this.noticeStyle()}>
           You are receiving this email because you signed up for
           opencollective.com. If you did not make this request, please contact
@@ -212,9 +191,11 @@ class Footer extends React.Component {
           &nbsp; support. Open Collective, Inc - 156 2nd St., San Francisco, CA
           94105
         </Paragraph>
+
         <Divider />
+
         <Paragraph style={this.madeStyle()}>
-          Made with ❤️ in NYC, Toronto, Berlin, Guadalajara, and Brussels!
+          Made with ❤️ in NYC, Berlin, Guadalajara, and South of France!
         </Paragraph>
       </CenteredBlock>
     );
