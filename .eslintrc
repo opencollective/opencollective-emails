@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "opencollective"
+  ],
+  "rules": {
+    "no-console": "off",
+    "react/jsx-closing-bracket-location": ["warn", "tag-aligned"]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "@opencollective/eymail-components",
+  "version": "0.0.4",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "clean": "rimraf lib",
+    "lint": "eslint \"src/**/*.js\"",
+    "lint:fix": "npm run lint -- --fix",
+    "lint:quiet": "npm run lint -- --quiet",
+    "prepublish": "npm run clean && npm run build",
+    "prettier": "prettier \"src/**/*.@(js|json)\"",
+    "prettier:write": "npm run prettier -- --write",
+    "prettier:check": "npm run prettier -- --list-different"
+  },
+  "engines": {
+    "node": "11.8.0",
+    "npm": "6.5.0"
+  },
+  "dependencies": {
+    "@eymail/components": "^0.0.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-opencollective": "^1.5.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4",
+    "rimraf": "^2.6.3"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
