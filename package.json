@@ -20,8 +20,8 @@
     "npm": "6.5.0"
   },
   "dependencies": {
-    "@eymail/editor": "^0.0.5",
     "@opencollective/eymail-components": "^0.0.5",
+    "@eymail/editor": "^0.0.6",
     "express": "^4.16.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
