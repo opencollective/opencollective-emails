@@ -6,7 +6,7 @@ const CenteredBlock = EyemailComponents.centeredBlock;
 
 const Stylesheet = EyemailComponents.stylesheet;
 
-class Footer extends React.Component {
+class Header extends React.Component {
   innerStyle() {
     return {
       padding: '35px 0',
@@ -40,4 +40,4 @@ class Footer extends React.Component {
   }
 }
 
-module.exports = Footer;
+module.exports = Header;
