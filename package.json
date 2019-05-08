@@ -4,9 +4,9 @@
   "description": "Open Collective Emails",
   "private": true,
   "scripts": {
-    "watch": "webpack --mode development --watch --progress --colors",
+    "watch": "NODE_ENV=development webpack --mode development --watch --progress --colors",
     "build": "webpack --mode production",
-    "dev": "nodemon index",
+    "dev": "NODE_ENV=development nodemon index",
     "start": "node index",
     "lint": "eslint \"*.js\"",
     "lint:fix": "npm run lint -- --fix",
@@ -28,10 +28,10 @@
     "react-resolver": "^3.1.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.4.4",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "commitizen": "^3.0.7",

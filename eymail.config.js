@@ -1,4 +1,15 @@
-const opencollectiveComponents = require('@opencollective/eymail-components');
+let opencollectiveComponents;
+if (process.env.NODE_ENV === 'development') {
+  // eslint-disable-next-line node/no-unpublished-require
+  require('@babel/register')({
+    only: [/packages\/opencollective-eyemail-components\/src/],
+    presets: ['@babel/preset-react'],
+  });
+  opencollectiveComponents = require('@opencollective/eymail-components/src');
+} else {
+  opencollectiveComponents = require('@opencollective/eymail-components');
+}
+
 const stylesheet = require('./opencollective.stylesheet');
 
 module.exports = ({ builder }) => {
