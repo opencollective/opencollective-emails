@@ -18,9 +18,11 @@ If you see a step below that could be improved (or is outdated), please update t
 
 ### Install
 
+We recommend cloning the repository in a folder dedicated to `opencollective` projects.
+
 ```
-git clone git@github.com:eyeem/eyemail.git
-cd eyemail
+git clone git@github.com:opencollective/opencollective-emails.git opencollective/emails
+cd opencollective/emails
 lerna bootstrap
 ```
 
