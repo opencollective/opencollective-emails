@@ -13,7 +13,7 @@ class Actions extends React.Component {
     return (
       <table width="100%" cellPadding={this.props.padding}>
         <tr>
-          {this.props.children.map((child, index) => (
+          {React.Children.map(this.props.children, (child, index) => (
             <td key={index} style={this.tdStyle()}>
               {child}
             </td>
