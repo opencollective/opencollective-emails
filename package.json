@@ -13,7 +13,8 @@
     "lint:quiet": "npm run lint -- --quiet",
     "prettier": "prettier \"*.@(js|json|md)\"",
     "prettier:write": "npm run prettier -- --write",
-    "prettier:check": "npm run prettier -- --list-different"
+    "prettier:check": "npm run prettier -- --list-different",
+    "link-eymail": "./scripts/link-eymail.sh"
   },
   "engines": {
     "node": "11.8.0",
