@@ -24,6 +24,7 @@ We recommend cloning the repository in a folder dedicated to `opencollective` pr
 git clone git@github.com:opencollective/opencollective-emails.git opencollective/emails
 cd opencollective/emails
 lerna bootstrap
+lerna link
 ```
 
 ### Start
