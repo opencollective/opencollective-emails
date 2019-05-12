@@ -8,6 +8,7 @@
     "build": "webpack --mode production",
     "dev": "NODE_ENV=development nodemon index",
     "start": "node index",
+    "commit": "git-cz",
     "lint": "eslint \"*.js\"",
     "lint:fix": "npm run lint -- --fix",
     "lint:quiet": "npm run lint -- --quiet",
