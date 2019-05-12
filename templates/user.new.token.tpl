@@ -13,7 +13,7 @@
       <Divider height={13} />
 
       <OC.Actions>
-        <OC.Button href="http://opencollective.com/">
+        <OC.Button href={props.loginLink}>
           One-click login
         </OC.Button>
       </OC.Actions>
