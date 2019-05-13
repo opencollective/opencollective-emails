@@ -41,17 +41,21 @@ class Button extends React.Component {
   }
 
   render() {
-    return (
+    return this.props.href ? (
+      <Link
+        style={{ color: this.color(), textDecoration: 'none' }}
+        href={this.props.href}
+      >
+        <BaseBlock
+          outerStyle={this.outerStyle()}
+          innerStyle={this.innerStyle()}
+        >
+          {this.props.children}
+        </BaseBlock>
+      </Link>
+    ) : (
       <BaseBlock outerStyle={this.outerStyle()} innerStyle={this.innerStyle()}>
-        {this.props.href && (
-          <Link
-            style={{ color: this.color(), textDecoration: 'none' }}
-            href={this.props.href}
-          >
-            {this.props.children}
-          </Link>
-        )}
-        {!this.props.href && this.props.children}
+        {this.props.children}
       </BaseBlock>
     );
   }
