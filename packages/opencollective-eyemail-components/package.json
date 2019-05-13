@@ -18,7 +18,7 @@
     "npm": "6.5.0"
   },
   "dependencies": {
-    "@eymail/components": "^0.0.7",
+    "@eymail/components": "^0.0.8",
     "lodash": "^4.17.11",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
