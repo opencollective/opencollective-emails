@@ -1,6 +1,6 @@
 {
   "name": "opencollective-emails",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Open Collective Emails",
   "private": true,
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@eymail/editor": "^0.0.7",
-    "@opencollective/eymail-components": "^0.0.6",
+    "@opencollective/eymail-components": "^0.0.7",
     "express": "^4.16.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
