@@ -1,4 +1,5 @@
-<EyeMail>
+/* eslint-disable */
+<Eymail title="Open Collective: Login">
 
   <OC.Header/>
 
@@ -22,4 +23,4 @@
 
   <OC.Footer/>
 
-</EyeMail>
+</Eymail>
