@@ -1,4 +1,4 @@
-<EyeMail>
+<Eymail>
 
   <OC.Header/>
 
@@ -39,4 +39,4 @@
 
   <OC.Footer/>
 
-</EyeMail>
+</Eymail>

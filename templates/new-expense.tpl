@@ -1,5 +1,4 @@
-/* eslint-disable */
-<EyeMail>
+<Eymail>
   <OC.Header />
 
   <OC.Content>
@@ -48,4 +47,4 @@
   </OC.Content>
 
   <OC.Footer />
-</EyeMail>
+</Eymail>
