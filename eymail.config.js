@@ -2,7 +2,7 @@ let opencollectiveComponents;
 if (process.env.NODE_ENV === 'development') {
   // eslint-disable-next-line node/no-unpublished-require
   require('@babel/register')({
-    only: [/packages\/opencollective-eyemail-components\/src/],
+    only: [/packages\/opencollective-eymail-components\/src/],
     presets: ['@babel/preset-react'],
   });
   opencollectiveComponents = require('@opencollective/eymail-components/src');
