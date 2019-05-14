@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`user.new.token compiles and match snapshot 1`] = `
+"<html>
+  
+  <head>
+    <meta charSet=\\"utf-8\\" />
+    <title>Open Collective: Login</title>
+    <style type=\\"text/css\\"></style>
+  </head>
+  
+  <body>
+    <table width=\\"100%\\" cellPadding=\\"0\\" cellSpacing=\\"0\\">
+      <tbody>
+        <tr>
+          <td style=\\"text-align:left;padding:10px;background-color:#FFF\\">
+            <div style=\\"text-align:center\\">
+              <center>
+                <table class=\\"textWidth\\" width=\\"408\\" cellPadding=\\"0\\" cellSpacing=\\"0\\" style=\\"min-width:408px\\">
+                  <tbody>
+                    <tr>
+                      <td style=\\"text-align:left;padding:35px 0\\">
+                        <div class=\\"maxWidth\\" style=\\"text-align:center\\">
+                          <img width=\\"28\\" height=\\"28\\" alt=\\"\\" src=\\"https://res.cloudinary.com/opencollective/image/upload/v1554471430/email/oc-symbol.png\\"
+                          />
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </center>
+            </div>
+            <table width=\\"100%\\" cellPadding=\\"0\\" cellSpacing=\\"0\\">
+              <tbody>
+                <tr>
+                  <td style=\\"text-align:left;padding-top:10px\\">
+                    <div style=\\"text-align:center\\">
+                      <center>
+                        <table class=\\"maxWidth\\" width=\\"460\\" cellPadding=\\"0\\" cellSpacing=\\"0\\" style=\\"min-width:460px\\">
+                          <tbody>
+                            <tr>
+                              <td style=\\"text-align:left;padding-top:32px;padding-bottom:32px\\">
+                                <div class=\\"headline1\\" style=\\"font-family:&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;color:#2A2C2E;font-size:20px;line-height:24px;font-weight:800;letter-spacing:-0.2px;text-align:center\\">You are one click away from logging into your Open Collective account
+                                  <br/>🔐</div>
+                                <table width=\\"100%\\" cellPadding=\\"0\\" cellSpacing=\\"0\\">
+                                  <tbody>
+                                    <tr>
+                                      <td style=\\"text-align:left;font-size:0;line-height:0;padding-top:7px;padding-bottom:7px\\"> </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <table width=\\"100%\\" cellPadding=\\"20\\">
+                                  <tbody>
+                                    <tr>
+                                      <td style=\\"width:NaN%\\">
+                                        <table width=\\"100%\\" cellPadding=\\"0\\" cellSpacing=\\"0\\" style=\\"background-color:#1f87ff;border-radius:100px;border:none\\">
+                                          <tbody>
+                                            <tr>
+                                              <td style=\\"text-align:center;font-family:&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;color:#ffffff;background-color:#1f87ff;font-size:14px;line-height:24px;font-weight:500;letter-spacing:-0.2px;padding:12px;white-space:nowrap;background:none\\"><a href=\\"https://opencollective.com/login\\" style=\\"color:#ffffff;text-decoration:none\\">One-click login</a>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </center>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div style=\\"text-align:center\\">
+              <center>
+                <table class=\\"textWidth\\" width=\\"408\\" cellPadding=\\"0\\" cellSpacing=\\"0\\" style=\\"min-width:408px\\">
+                  <tbody>
+                    <tr>
+                      <td style=\\"text-align:left;padding:0\\">
+                        <table width=\\"100%\\" cellPadding=\\"0\\" cellSpacing=\\"0\\">
+                          <tbody>
+                            <tr>
+                              <td style=\\"text-align:left;padding-top:38px;padding-bottom:38px\\">
+                                <table width=\\"100%\\" cellPadding=\\"0\\" cellSpacing=\\"0\\" style=\\"font-size:0;line-height:0;border-top:1px solid #e5e5e5\\">
+                                  <tbody>
+                                    <tr>
+                                      <td style=\\"text-align:left\\"> </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div class=\\"maxWidth\\" style=\\"text-align:center\\">
+                          <img width=\\"167\\" height=\\"28\\" alt=\\"\\" src=\\"https://res.cloudinary.com/opencollective/image/upload/v1554471430/email/logo.png\\"
+                          />
+                        </div>
+                        <table width=\\"100%\\" cellPadding=\\"0\\" cellSpacing=\\"0\\">
+                          <tbody>
+                            <tr>
+                              <td style=\\"text-align:left;font-size:0;line-height:0;padding-top:18px;padding-bottom:18px\\"> </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div style=\\"font-family:&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;color:#4B4E52;font-size:14px;font-weight:700;line-height:18px;letter-spacing:-0.2px;text-align:center\\">An organization for your community,
+                          <br/>transparent by design.</div>
+                        <table width=\\"100%\\" cellPadding=\\"0\\" cellSpacing=\\"0\\">
+                          <tbody>
+                            <tr>
+                              <td style=\\"text-align:left;font-size:0;line-height:0;padding-top:18px;padding-bottom:18px\\"> </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div style=\\"font-family:&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;color:#969BA3;font-size:12px;line-height:17px;font-weight:400;letter-spacing:0.2px;text-align:center\\">You are receiving this email because you signed up for opencollective.com.
+                          If you did not make this request, please contact  <a href=\\"https://opencollective.com/\\"
+                          style=\\"color:#1f87ff\\">Open Collective</a>  support. Open Collective, Inc
+                          - 156 2nd St., San Francisco, CA 94105</div>
+                        <table width=\\"100%\\" cellPadding=\\"0\\"
+                        cellSpacing=\\"0\\">
+                          <tbody>
+                            <tr>
+                              <td style=\\"text-align:left;font-size:0;line-height:0;padding-top:10px;padding-bottom:10px\\"> </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div style=\\"font-family:&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;color:#4B4E52;font-size:12px;line-height:18px;font-weight:400;letter-spacing:0.2px;text-align:center\\">Made with ❤️ in NYC, Berlin, Guadalajara, and South of France.</div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </center>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+
+</html>"
+`;
