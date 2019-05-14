@@ -52,15 +52,7 @@ exports[`user.new.token compiles and match snapshot 1`] = `
                                 <table width=\\"100%\\" cellPadding=\\"20\\">
                                   <tbody>
                                     <tr>
-                                      <td style=\\"width:NaN%\\">
-                                        <table width=\\"100%\\" cellPadding=\\"0\\" cellSpacing=\\"0\\" style=\\"background-color:#1f87ff;border-radius:100px;border:none\\">
-                                          <tbody>
-                                            <tr>
-                                              <td style=\\"text-align:center;font-family:&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;color:#ffffff;background-color:#1f87ff;font-size:14px;line-height:24px;font-weight:500;letter-spacing:-0.2px;padding:12px;white-space:nowrap;background:none\\"><a href=\\"https://opencollective.com/login\\" style=\\"color:#ffffff;text-decoration:none\\">One-click login</a>
-                                              </td>
-                                            </tr>
-                                          </tbody>
-                                        </table>
+                                      <td style=\\"width:NaN%\\"><a href=\\"https://opencollective.com/login\\" style=\\"color:#ffffff;text-decoration:none\\"><table width=\\"100%\\" cellPadding=\\"0\\" cellSpacing=\\"0\\" style=\\"background-color:#1f87ff;border-radius:100px;border:none\\"><tbody><tr><td style=\\"text-align:center;font-family:&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;color:#ffffff;background-color:#1f87ff;font-size:14px;line-height:24px;font-weight:500;letter-spacing:-0.2px;padding:12px;white-space:nowrap;background:none\\">One-click login</td></tr></tbody></table></a>
                                       </td>
                                     </tr>
                                   </tbody>
