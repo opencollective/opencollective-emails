@@ -1,10 +1,10 @@
 {
   "name": "@opencollective/eymail-components",
   "version": "0.0.8",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "babel src --out-dir lib",
-    "clean": "rimraf lib",
+    "build": "babel src --out-dir dist",
+    "clean": "rimraf dist",
     "lint": "eslint \"src/**/*.js\"",
     "lint:fix": "npm run lint -- --fix",
     "lint:quiet": "npm run lint -- --quiet",
