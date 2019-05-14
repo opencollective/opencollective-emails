@@ -1,0 +1,23 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:11.8
+    steps:
+      - checkout
+      - restore_cache:
+          name: Restore npm cache
+          keys:
+            - npm-cache-{{ checksum "package.json" }}
+            - npm-cache-
+      - run: sudo npm install -g lerna
+      - run: lerna bootstrap
+      - run: lerna link
+      - save_cache:
+          name: Persist npm cache
+          key: npm-cache-{{ checksum "package.json" }}
+          paths:
+            - ~/.npm
+            - ./node_modules
+      - run: npm run build
+      - run: npm run test
