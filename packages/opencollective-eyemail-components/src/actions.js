@@ -12,13 +12,15 @@ class Actions extends React.Component {
   render() {
     return (
       <table width="100%" cellPadding={this.props.padding}>
-        <tr>
-          {React.Children.map(this.props.children, (child, index) => (
-            <td key={index} style={this.tdStyle()}>
-              {child}
-            </td>
-          ))}
-        </tr>
+        <tbody>
+          <tr>
+            {React.Children.map(this.props.children, (child, index) => (
+              <td key={index} style={this.tdStyle()}>
+                {child}
+              </td>
+            ))}
+          </tr>
+        </tbody>
       </table>
     );
   }
