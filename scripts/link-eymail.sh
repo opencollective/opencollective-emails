@@ -1,4 +1,4 @@
 npm link @eymail/editor
-cd packages/opencollective-eyemail-components
+cd packages/opencollective-eymail-components
 npm link @eymail/components
 cd -

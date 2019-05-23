@@ -12,7 +12,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /packages\/opencollective-eyemail-components\/src/,
+        test: /packages\/opencollective-eymail-components\/src/,
         use: {
           loader: 'babel-loader',
           options: {
