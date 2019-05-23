@@ -12,6 +12,8 @@
     "pretest": "npm run lint && npm run prettier:check",
     "test": "jest",
     "test:update": "jest --updateSnapshot",
+    "deploy:production": "git push production master",
+    "deploy:staging": "git push staging master",
     "lint": "eslint \"*.js\"",
     "lint:fix": "npm run lint -- --fix",
     "lint:quiet": "npm run lint -- --quiet",

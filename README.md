@@ -35,7 +35,7 @@ Compile the client with:
 npm run watch
 ```
 
-Start the server with
+In a separate process, start the server with:
 
 ```
 npm run dev
@@ -46,6 +46,23 @@ npm run dev
 Code style? Commit convention? Please check our [Contributing guidelines](CONTRIBUTING.md).
 
 TL;DR: we use [Prettier](https://prettier.io/) and [ESLint](https://eslint.org/), we do like great commit messages and clean Git history.
+
+## Release
+
+You will need write access to the [opencollective](https://www.npmjs.com/org/opencollective) organization on [npm](https://www.npmjs.com/). Check who you are with `npm whoami` and `npm login` if necessary.
+
+Make sure your environment is clean and ready for publish:
+
+```
+lerna clean -y
+lerna bootstrap
+```
+
+Then run:
+
+```
+lerna publish
+```
 
 ## License
 
