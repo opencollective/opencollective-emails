@@ -30,7 +30,7 @@
     "@eymail/editor": "^0.8.1",
     "@opencollective/eymail-components": "^0.8.1",
     "express": "^4.16.4",
-    "react": "^16.8.6",
+    "react": "^17.0.0",
     "react-dom": "^16.8.6",
     "react-resolver": "^3.1.2"
   },
